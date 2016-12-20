@@ -1,0 +1,37 @@
+---
+title: "Kaggle_HR_Competition"
+author: "Cho-Han Wu"
+date: "December 20, 2016"
+output: 
+  html_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Import data
+
+**(a)**
+```{r cars}
+# Read data source from csv file
+hr_data = read.csv("HR_comma_sep.csv")
+
+# View the data
+View(hr_data)
+
+# See the structure of the data set
+str(hr_data)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Str
